@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME!!!"
+        android:textSize="40sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please Select your choice from below"
+        android:textSize="20sp"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/btnone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="20dp"
+        android:text="Intent Example">
+
+    </Button>
+    <Button
+        android:id="@+id/btntwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="20dp"
+        android:text="Horizontal scrollView">
+
+    </Button>
+    <Button
+        android:id="@+id/btnthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:text="Scroll Image">
+
+    </Button>
+    <Button
+        android:id="@+id/btnfour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="20dp"
+        android:text="Registration form">
+
+    </Button>
+
+
+
+</LinearLayout>

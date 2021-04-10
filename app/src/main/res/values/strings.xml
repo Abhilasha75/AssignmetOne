@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AssignmetOne</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="registration_form">Registration Form</string>
+    <string name="name">Name</string>
+    <string name="textname">textname</string>
+</resources>
